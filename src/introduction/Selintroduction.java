@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import dev.failsafe.internal.util.Assert;
+
 public class Selintroduction{
 
 	public static void main(String args[]) {
@@ -31,9 +33,13 @@ public class Selintroduction{
 		driver.get("http://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-		driver.close(); // close current browser
+		
+		//driver.close(); // close current browser
 		//driver.quit(); // quit all open browser by driver
 	}
+	
+
+	
 
 	
 }
