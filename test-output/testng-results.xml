@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84504" started-at="2022-07-22T17:18:24 IST" finished-at="2022-07-22T17:19:49 IST">
+  <suite name="Default suite" duration-ms="94245" started-at="2022-07-22T19:07:56 IST" finished-at="2022-07-22T19:09:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84504" started-at="2022-07-22T17:18:24 IST" finished-at="2022-07-22T17:19:49 IST">
+    <test name="Default test" duration-ms="94245" started-at="2022-07-22T19:07:56 IST" finished-at="2022-07-22T19:09:30 IST">
       <class name="com.java.NewTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.NewTest@6043cd28]" name="beforeMethod" is-config="true" duration-ms="44232" started-at="2022-07-22T17:18:24 IST" finished-at="2022-07-22T17:19:08 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.NewTest@6043cd28]" name="beforeMethod" is-config="true" duration-ms="63503" started-at="2022-07-22T19:07:58 IST" finished-at="2022-07-22T19:09:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.java.NewTest@6043cd28]" name="f" duration-ms="17436" started-at="2022-07-22T17:19:08 IST" finished-at="2022-07-22T17:19:26 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.java.NewTest@6043cd28]" name="f" duration-ms="1039" started-at="2022-07-22T19:09:01 IST" finished-at="2022-07-22T19:09:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.NewTest@6043cd28]" name="beforeMethod" is-config="true" duration-ms="20962" started-at="2022-07-22T17:19:26 IST" finished-at="2022-07-22T17:19:47 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.java.NewTest@6043cd28]" name="beforeMethod" is-config="true" duration-ms="27622" started-at="2022-07-22T19:09:02 IST" finished-at="2022-07-22T19:09:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="f1()[pri:0, instance:com.java.NewTest@6043cd28]" name="f1" duration-ms="976" started-at="2022-07-22T17:19:47 IST" finished-at="2022-07-22T17:19:48 IST">
+        <test-method status="FAIL" signature="f1()[pri:0, instance:com.java.NewTest@6043cd28]" name="f1" duration-ms="419" started-at="2022-07-22T19:09:30 IST" finished-at="2022-07-22T19:09:30 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"https://courses.rahulshettyacademy.com/sign_up"}
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-DS8Q63D', ip: '169.254.107.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e6b0825d66e7095668900263a345f1c, findElement {using=link text, value=https://courses.rahulshettyacademy.com/sign_up}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49194/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e6b0825d66e7095668900263a345f1c]]>
+Command: [8cb7762b8a612efe7aafc1bc5c298630, findElement {using=link text, value=https://courses.rahulshettyacademy.com/sign_up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59488/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb7762b8a612efe7aafc1bc5c298630]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"https://courses.rahulshettyacademy.com/sign_up"}
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-DS8Q63D', ip: '169.254.107.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e6b0825d66e7095668900263a345f1c, findElement {using=link text, value=https://courses.rahulshettyacademy.com/sign_up}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49194/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e6b0825d66e7095668900263a345f1c
+Command: [8cb7762b8a612efe7aafc1bc5c298630, findElement {using=link text, value=https://courses.rahulshettyacademy.com/sign_up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59488/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb7762b8a612efe7aafc1bc5c298630
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)

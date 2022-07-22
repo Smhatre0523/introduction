@@ -14,7 +14,7 @@ public class NewTest {
 		// firefox launch
 		// System.setProperty("webdriver.gecko.driver", "S://selenium/driver/geckodriver.exe");
 		// driver = new FirefoxDriver();
-		driver.get("http://rahulshettyacademy.com");
+		
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getPageSource());
@@ -22,13 +22,14 @@ public class NewTest {
   }
   @Test
   public void f1() {
-	  driver.findElement(By.linkText("https://courses.rahulshettyacademy.com/sign_up")).click();
+	  driver.findElement(By.xpath("//*[@class='theme-btn'][1]")).click();
   }
   @BeforeMethod
   public void beforeMethod() {
 	 
 			System.setProperty("webdriver.chrome.driver", "S://selenium/driver/chromedriver.exe");
 			 driver = new ChromeDriver();
+			 driver.get("http://rahulshettyacademy.com");
   }
 
 }
